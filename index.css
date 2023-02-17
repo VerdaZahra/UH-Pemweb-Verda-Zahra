@@ -1,0 +1,74 @@
+body,html{
+    padding:10px;
+}
+
+.container{
+    display: flex;
+    gap: 3rem   ;
+}
+
+h1{
+    font-family: 'Inter', sans-serif;
+    font-size: 40px;
+}
+p{
+    font-family: 'Inter', sans-serif;
+}
+
+.content{
+    margin-top: -25px;
+}
+
+.title{
+    margin-top: -20px;
+    margin-left: 5px;
+    
+    font-size: 20px;
+    color: gray;
+}
+.button{
+    display: flex;
+    gap: 1rem;
+}
+
+.primary-button {
+    height: 50px;
+    font-weight: 600;
+    border-radius: 8px;
+    background-color: #6576BD; 
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+.secondary-button{
+    height: 50px;
+    background-color: white;
+    font-weight: 600;
+    border-radius: 8px;
+    border-width: 100px;
+    border: 3px solid #6576BD;
+    color: #6576BD;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+  b{
+    color: #6576BD;
+  }
+.details-2{
+    margin-top: -15px;
+}
+
+.details-cont{
+    margin-top: 25px;
+    display: flex;
+    gap: 2rem;
+}
